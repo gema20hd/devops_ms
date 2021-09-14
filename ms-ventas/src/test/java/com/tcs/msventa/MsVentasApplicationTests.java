@@ -1,7 +1,7 @@
 package com.tcs.msventa;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,8 +15,7 @@ class MsVentasApplicationTests {
 	void contextLoads() {
 	   String menssage = "Mensaje por defecto de cambio devops";
 	   String menssage2 = "Mensaje por defecto de cambio devops................";
-	   
-		assertNotNull(menssage);
+		assert(menssage);
 	}
 
 }
