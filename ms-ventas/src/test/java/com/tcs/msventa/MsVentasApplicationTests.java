@@ -15,9 +15,8 @@ class MsVentasApplicationTests {
 
 	@Test
 	void contextLoads() {
-	   String menssage = "Mensaje por defecto de cambio devops";
-	   String menssage2 = "Mensaje por defecto de cambio devops................";
-	   Assert.assertNotNull(menssage2);
+	   String menssage1 = "Mensaje por defecto de cambio test devops................";
+	   Assert.assertNotNull(menssage1);
 	}
 
 }
